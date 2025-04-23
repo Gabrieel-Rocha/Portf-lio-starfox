@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+main {
+    min-height: 30rem;
+    width: 18rem;
+    background-image:url(image/estrelas.png);
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 20px;
+    
+    
+    
+   
+
+}
+
+
+ 
+.imagem{
+    display: flex;  
+    justify-content: center;
+    padding-top: 28px;
+   
+}
+.img { 
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgba(255, 0, 0, 0.466);
+    border-width: 1px;
+
+    
+ }
+
+h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    font-size: 13px;
+    
+    
+    
+    
+}
+
+.endereco {
+    color: aliceblue;
+    font-size: 8px;
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+    color: rgba(255, 0, 0, 0.750);
+    
+ }
+
+ .descricao{
+    color:rgba(255, 0, 0, 0.750); );
+    text-align: center;
+    font-size: 8px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+ }
+
+.contato  { 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+
+    padding: 20px;
+        
+}
+
+.contato a {
+    color: aliceblue;
+    font-size: 8px;
+    display: block;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    
+    
+}
+
+.contato a:hover {
+    background-color: rgba(255, 0, 0, 0.466);
+    color:aliceblue;
+    
+    
+}
+
+@media screen { 
+    @media (max-width: 600px) {
+        main {
+            width: 80vw;
+            margin-left: 10%;
+            margin-top: 10%;
+            border-radius: 18px;
+        }
+    }
+    
+}
