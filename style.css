@@ -19,6 +19,8 @@ main {
     min-height: 30rem;
     width: 18rem;
     background-image:url(image/estrelas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 35%;
     margin-top: 10%;
     border-radius: 20px;
